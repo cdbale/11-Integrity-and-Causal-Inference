@@ -1,0 +1,81 @@
+Research-section sources, checked 2026-10-19
+
+Primary manuscript supplied by Cam:
+Trust_Badge_Verification (4).pdf, dated October 19, 2026, 25 PDF pages.
+Title page: Trust Me: The Effects of Reviewer Identity Verification on Digital Marketplaces.
+Authors: Ben B. Beck, Cameron Bale, Morgan Bale, Maggie Smith.
+PDF page 2 uses "Online Platforms" instead of "Digital Marketplaces"; slides use title page.
+Study 1 stimuli: PDF p. 8, Figure 1 (original embedded raster).
+Study 1 numeric effects/CIs: PDF p. 9, Table 1.
+Study 2 attributes: PDF p. 10, Table 2.
+Study 2 main effects/clustered SEs: PDF p. 12, Table 3.
+Study 2 interaction contrasts: PDF pp. 12-13, Section 3.2.1.
+The original file omitted the appendix. Cam subsequently supplied
+Trust_Badge_Verification (5).pdf (7 pages): Table 3 on PDF p. 5 supplies the full
+purchase-intention interaction-model coefficients used for the predicted-level plot.
+Predictions average evenly over the 8 combinations of helpfulness cue, review recency,
+and identity disclosure, with the respondent random effect set to its population mean (0).
+They use rounded reported coefficients, not raw data. Prediction confidence intervals
+require the joint coefficient covariance matrix, which is not supplied.
+Study 3 creatives: PDF p. 15, Figure 3 (original embedded raster).
+Study 3 counts and reported p-values: PDF p. 16, Table 4.
+Study 3 age balance: PDF p. 17, Table 5.
+No raw study data were supplied. research-figures.R redraws summaries, not fitted models.
+
+Clarifications from Cam:
+- Research team paid for the campaigns (original task request).
+- Two separate campaigns/ad sets with matched settings, not a randomized Meta A/B split.
+- Econometrica example approved alongside marketing-journal studies.
+
+Portraits, identified through official BYU profiles:
+Ben Beck: https://marriott.byu.edu/directory/details?id=42109
+Image: https://marriott.byu.edu/msbadmin/securefile/empphoto?pid=42109
+Morgan Bale: https://marriott.byu.edu/directory/details?id=47262
+Image: https://marriott.byu.edu/msbadmin/securefile/empphoto?pid=47262
+Maggie Smith named on introductory slide; no confidently verified public portrait found.
+
+External primary sources:
+Burtch, G., Moakler, R., Gordon, B. R., Zhang, P., and Hill, S. (2025).
+Characterizing and Minimizing Divergent Delivery in Meta Advertising Experiments.
+https://arxiv.org/abs/2508.21251
+https://arxiv.org/html/2508.21251v1
+Also checked the November 12, 2025 MSI report, especially pp. 23-26:
+https://thearf-org-unified-admin.s3.amazonaws.com/MSI/2025/MSI_Report_25-140.pdf
+Our matching settings and small age SMDs do not establish elimination of divergent delivery.
+The report's strongest configurations use awareness/reach and constrained frequency;
+our manuscript describes link-click optimization. Its age/gender t-stat diagnostic is
+calibrated on awareness-optimized native A/B tests, not our matched separate campaigns.
+
+Lodish et al. (1995). How T.V. Advertising Works: A Meta-Analysis of 389 Real World
+Split Cable T.V. Advertising Experiments. Journal of Marketing Research 32(2), 125-139.
+https://doi.org/10.1177/002224379503200201
+Publisher abstract supports the budget-increase statement. No unverified share of
+insignificant experiments is quoted. Historical study, not proof advertising never works.
+
+Simonov, A., Nosko, C., and Rao, J. M. (2018). Competition and Crowd-Out for Brand
+Keywords in Sponsored Search. Marketing Science 37(2), 200-215.
+https://doi.org/10.1287/mksc.2017.1065
+Author-hosted article: https://business.columbia.edu/sites/default/files-efs/pubfiles/26238/competition_crowdout.pdf
+Includes both low incrementality without competition and value of defensive advertising.
+
+Blake, T., Nosko, C., and Tadelis, S. (2015). Consumer Heterogeneity and Paid Search
+Effectiveness: A Large-Scale Field Experiment. Econometrica 83(1), 155-174.
+https://doi.org/10.3982/ECTA12423
+Author-hosted version: https://faculty.haas.berkeley.edu/stadelis/BNT_ECMA_rev.pdf
+Brand ads: no measurable short-term benefit. Nonbrand: new/infrequent users respond;
+average short-term returns negative. Explicitly label the economics journal and setting.
+
+Shapiro, B. T., Hitsch, G. J., and Tuchman, A. E. (2021).
+TV Advertising Effectiveness and Profitability: Generalizable Results from 288 Brands.
+Econometrica 89(4), 1855-1879. https://doi.org/10.3982/ECTA17674
+Previously circulated as Generalizable and Robust TV Advertising Effects (2020):
+https://www.nber.org/papers/w27684
+Author manuscript: https://economics.sas.upenn.edu/system/files/2021-02/Ad-Effects-Generalizable-Robust-Revision-3-Jan-29.pdf
+Publisher abstract: more than 80% of brands have negative estimated marginal ROI.
+Manuscript conclusion (printed p. 23): two thirds of estimated effects are not
+statistically distinguishable from zero. This is not evidence that all those effects
+are exactly zero. Observational identification with fixed effects and a TV-market
+border robustness strategy; not a randomized experiment. Marginal ROI concerns extra
+advertising at observed spending levels, not whether all advertising should stop.
+
+Slide figure: research-shapiro-weekly-roi.png is a direct high-resolution crop of Figure 4(a), printed p. 22 (PDF page 22), January 29, 2021 manuscript above. Original data, axes, labels, and legend retained. PDF crop in points: left=80, bottom=452, right=80, top=145; rendered at 4x with PDFium. Panels assume manufacturer margins of 20%, 30%, 40%. Solid line is median; dashed line is zero. Weekly ROI compares advertising in a week with omitting that week, holding other weeks fixed.

@@ -1,0 +1,18 @@
+"variable","label","correlation"
+"Age","Age",0.0247169489322838
+"EducationSome college/associate","Some college",-0.0021870828666992
+"EducationBachelor's","Bachelor's",0.00327805665950298
+"EducationGraduate","Graduate",-0.00596844984078493
+"HouseholdIncome","Income",0.00423222435894784
+"HouseholdSize","Household size",0.0108598382727647
+"ChildrenAtHome","Children",0.0195748145841059
+"Homeowner","Homeowner",-0.0117837649530786
+"HomeSizeSqFt","Home size",0.00286394188276976
+"RegionNortheast","Northeast",0.00162124940885044
+"RegionSouth","South",0.00797800707363441
+"RegionWest","West",0.00334641438306045
+"SiteVisits30d","Site visits",-0.011003208561366
+"ProductViews30d","Product views",-0.0121126262862231
+"DaysSinceLastVisit","Days since visit",-0.000556593957156374
+"EmailEngagement90d","Prior email clicks",0.00973527094752512
+"PreviousSpend","Previous spend",0.00960795571353494
